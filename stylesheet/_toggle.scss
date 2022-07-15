@@ -1,0 +1,48 @@
+.toggle {
+	&:hover {
+		cursor: pointer;
+
+		label {
+			color: var(--color-text1);
+		}
+
+		button {
+			filter: brightness(120%);
+		}
+
+	}
+
+	&__label {
+		font-family: 'Inter';
+		font-weight: 700;
+		font-size: 14px;
+		line-height: 17px;
+		color: var(--color-text2);
+		padding-right: 14px;
+	}
+
+	&__btn {
+		display: flex;
+		align-items: center;
+		justify-content: flex-start;
+		width: 48px;
+		height: 24px;
+		border: none;
+		border-radius: 12px;
+		background: linear-gradient(to right, var(--color-toggle-1), var(--color-toggle-2));
+	}
+
+	&__btn--switched {
+		justify-content: flex-end;
+		background: rgba(174, 179, 203, 1);
+
+	}
+
+	&__circle {
+		display: block;
+		width: 18px;
+		height: 18px;
+		border-radius: 50%;
+		background-color: var(--color-top-bg);
+	}
+}

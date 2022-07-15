@@ -1,0 +1,25 @@
+.dark-theme {
+	--color-bg: rgba(29, 31, 41, 1);
+	--color-top-bg: rgba(32, 34, 47, 1);
+	--color-card-bg: rgba(37, 43, 66, 1);
+	--color-text1: rgba(255, 255, 255, 1);
+	--color-text2: rgba(140, 152, 198, 1);
+	--color-card-hover: rgba(51, 58, 85, 1);
+	--color-toggle-1: hsl(210, 78%, 56%);
+	--color-toggle-2: hsl(146, 68%, 55%);
+	--color-statistic: rgba(30, 181, 137, 1);
+	--color-statistic-negative: rgba(220, 65, 76, 1);
+}
+
+.light-theme {
+	--color-bg: rgba(255, 255, 255, 1);
+	--color-top-bg: rgba(247, 249, 255, 1);
+	--color-card-bg: rgba(241, 243, 250, 1);
+	--color-text1: rgba(29, 31, 41, 1);
+	--color-text2: rgba(99, 104, 125, 1);
+	--color-card-hover: rgba(225, 228, 240, 1);
+	--color-toggle-1: hsl(210, 78%, 56%);
+	--color-toggle-2: hsl(146, 68%, 55%);
+	--color-statistic: rgba(30, 181, 137, 1);
+	--color-statistic-negative: rgba(220, 65, 76, 1);
+}

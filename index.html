@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./css/main.css">
+	<script src="./js/theme_script.js"></script>
+	<title>Social Dashboard</title>
+</head>
+
+<body class="dark-theme">
+	<div class="content__container">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__data">
+					<h1 class="header__title">Social Media Dashboard</h1>
+					<p class="header__subtitle">Total Followers: 23,004</p>
+				</div>
+				<div class="header__toggle toggle">
+					<label class="toggle__label" for="theme-selector">Dark Mode</label>
+					<button class="toggle__btn" id="theme-selector" aria-label="dark mode toggle switch" aria-pressed="true">
+						<span class="toggle__circle" aria-hidden="true"></span>
+					</button>
+				</div>
+			</div>
+		</header>
+		<main class="data">
+			<div class="social">
+				<div class="social__container">
+					<ul class="social__items">
+						<li class="social__item social__item--fb ">
+							<div class="item__title">
+								<img src="./images/icon-facebook.svg" alt=" facebook icon">
+								<h4>@nathanf</h4>
+							</div>
+							<p class="item__number">1987</p>
+							<p class="item__subheading">followers</p>
+							<p class="statistic">12 Today</p>
+							<span class="btnBefore"></span>
+							<span class="btnAfter"></span>
+						</li>
+						<li class="social__item social__item--tw">
+							<div class="item__title">
+								<img src="./images/icon-twitter.svg" alt=" facebook icon">
+								<h4>@nathanf</h4>
+							</div>
+							<p class="item__number">1044</p>
+							<p class="item__subheading">followers</p>
+							<p class="statistic">99 Today</p>
+							<span class="btnBefore"></span>
+							<span class="btnAfter"></span>
+						</li>
+						<li class="social__item social__item--inst">
+							<div class="item__title">
+								<img src="./images/icon-instagram.svg" alt=" facebook icon">
+								<h4>@nathanf</h4>
+							</div>
+							<p class="item__number">11k</p>
+							<p class="item__subheading">followers</p>
+							<p class="statistic">1099 Today</p>
+							<span class="btnBefore"></span>
+							<span class="btnAfter"></span>
+						</li>
+						<li class="social__item social__item--yt">
+							<div class="item__title">
+								<img src="./images/icon-youtube.svg" alt=" facebook icon">
+								<h4>@nathanf</h4>
+							</div>
+							<p class="item__number">8239</p>
+							<p class="item__subheading">subscribers</p>
+							<p class="statistic negative-statistic">144 Today</p>
+							<span class="btnBefore"></span>
+							<span class="btnAfter"></span>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="overiew">
+				<div class="overview__container">
+					<div class="overview__title">Overview - Today</div>
+					<ul class="overview__cards">
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Page views</p>
+								<img src="./images/icon-facebook.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">87</h4>
+								<p class="card__statistic statistic">3%</p>
+							</div>
+
+
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Likes</p>
+								<img src="./images/icon-facebook.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">52</h4>
+								<p class="card__statistic statistic negative-statistic ">2%</p>
+							</div>
+
+
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Likes</p>
+								<img src="./images/icon-instagram.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">5462</h4>
+								<p class="card__statistic statistic ">2257%</p>
+							</div>
+
+
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Profile views</p>
+								<img src="./images/icon-instagram.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">52k</h4>
+								<p class="card__statistic statistic negative-statistic ">1375%</p>
+							</div>
+
+
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Retweets</p>
+								<img src="./images/icon-twitter.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">117</h4>
+								<p class="card__statistic statistic ">303%</p>
+							</div>
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Likes</p>
+								<img src="./images/icon-twitter.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">507</h4>
+								<p class="card__statistic statistic  ">553%</p>
+							</div>
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Likes</p>
+								<img src="./images/icon-youtube.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">107</h4>
+								<p class="card__statistic statistic negative-statistic ">19%</p>
+							</div>
+						</li>
+
+						<li class="overview__card">
+							<div class="overview__top">
+								<p class="card__views">Total views</p>
+								<img src="./images/icon-youtube.svg" alt="icon" class="card__icon">
+							</div>
+							<div class="overview__bottom">
+								<h4 class="card__number">1407</h4>
+								<p class="card__statistic statistic negative-statistic ">12%</p>
+							</div>
+						</li>
+
+					</ul>
+				</div>
+			</div>
+
+		</main>
+	</div>
+</body>
+
+</html>
